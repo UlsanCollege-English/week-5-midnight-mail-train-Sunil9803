@@ -1,9 +1,3 @@
-"""Week 5 homework: Midnight Mail Train.
-
-Complete the required functions and classes.
-Use recursion only where the instructions require recursion.
-"""
-
 from __future__ import annotations
 
 
@@ -108,7 +102,7 @@ def count_priority_labels_iterative(labels: list[str], target: str) -> int:
 def clean_radio_message_iterative(message: str) -> str:
     """Optional stretch: iterative version of clean_radio_message."""
     result = ""
-    for char in message:
-        if char != " ":
-            result += char
+    for ch in message:
+        if ch != " ":
+            result += ch
     return result
